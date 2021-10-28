@@ -1,5 +1,6 @@
 {
-	"name": "medianalytic",
+	"name": "lunn-website",
+	"author": "eric maro",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
