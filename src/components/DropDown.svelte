@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
 	import { createEventDispatcher, onMount } from 'svelte';
 	import { scale } from 'svelte/transition';
 	import type { MenuItem } from '@/shared/types/menuItem';
