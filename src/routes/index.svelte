@@ -21,7 +21,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercase">Our Solutions</h2>
-            <div class="w-16 bg-yellow-500 h-0.5 mt-1.5"></div>
+            <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
 
             <p class="mt-3 text-sm md:text-base lg:text-lg 2xl:text-xl">
                 Over the years, Financial Institution and Payment Processing Companies across Africa have trusted Lunn-Tech to provide them with excellent Payment solutions and many other consultancy Services as listed;
@@ -105,7 +105,7 @@
 <div class="container mx-auto px-6 py-12">
     <div>
         <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercase">Our Services</h2>
-        <div class="w-16 bg-yellow-500 h-0.5 mt-1.5"></div>
+        <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
 
         <h4 class="text-base lg:text-xl 2xl:text-2xl font-medium capitalize mt-6">
             We provide the best consultancy services for your business
@@ -168,12 +168,12 @@
 <div class="container mx-auto px-6 py-12">
     <div>
         <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercase">Products</h2>
-        <div class="w-16 bg-yellow-500 h-0.5 mt-1.5"></div>
+        <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12">
         <div class="space-y-6">
-            <h2 class="text-xl lg:text-3xl 2xl:text-5xl font-medium uppercas">Non Payment POS</h2>
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercas">Non Payment POS</h2>
 
             <p class="text-gray-500 text-sm md:text-base 2xl:text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
