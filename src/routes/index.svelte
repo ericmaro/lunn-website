@@ -2,33 +2,42 @@
 	  <title>Lunn</title>
 </svelte:head>
 
+<style>
+.middle_section {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/18/15/13/ec-cash-1750490_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
 <div class="hero" style="height:640px !important; background-image: url(&quot;https://picsum.photos/id/1005/1600/1400&quot;);">
     <div class="hero-overlay bg-opacity-60"></div> 
     <div class="text-center hero-content text-neutral-content">
         <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold">
-                        Hello there
-                    </h1> 
+                Hello there
+            </h1> 
             <p class="mb-5">
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-                    </p> 
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+            </p> 
             <button class="btn btn-primary">Get Started</button>
         </div>
     </div>
 </div>
 
-<div class="container mx-auto px-6 py-12">
+<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercase">Our Solutions</h2>
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
             <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
 
-            <p class="mt-3 text-sm md:text-base lg:text-lg 2xl:text-xl">
+            <p class="mt-3 text-sm md:text-base lg:text-lg xl:text-xl">
                 Over the years, Financial Institution and Payment Processing Companies across Africa have trusted Lunn-Tech to provide them with excellent Payment solutions and many other consultancy Services as listed;
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 font-poppins">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 font-josefin">
 
             <div class="card border border-gray-100 shadow-lg">
                 <div class="card-body">
@@ -39,8 +48,8 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-medium text-lg lg:text-2xl mb-1">ESB Gateway</h2>
-                        <a href="/" class="text-yellow-500">View Details</a>
+                        <h2 class="font-semibold text-lg lg:text-2xl mb-1">ESB Gateway</h2>
+                        <a href="/" class="text-yellow-500 text-sm 2xl:text-base">View Details</a>
                     </div>
                 </div>
             </div>
@@ -56,8 +65,8 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-medium text-lg lg:text-2xl mb-1">Mobile Banking</h2>
-                        <a href="/" class="text-yellow-500">View Details</a>
+                        <h2 class="font-semibold text-lg lg:text-2xl mb-1">Mobile Banking</h2>
+                        <a href="/" class="text-yellow-500 text-sm 2xl:text-base">View Details</a>
                     </div>
                 </div>
             </div>
@@ -70,8 +79,8 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-medium text-lg lg:text-2xl mb-1">Internet Banking</h2>
-                        <a href="/" class="text-yellow-500">View Details</a>
+                        <h2 class="font-semibold text-lg lg:text-2xl mb-1">Internet Banking</h2>
+                        <a href="/" class="text-yellow-500 text-sm 2xl:text-base">View Details</a>
                     </div>
                 </div>
             </div>
@@ -92,8 +101,8 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-medium text-lg lg:text-2xl mb-1">Agency Banking</h2>
-                        <a href="/" class="text-yellow-500">View Details</a>
+                        <h2 class="font-semibold text-lg lg:text-2xl mb-1">Agency Banking</h2>
+                        <a href="/" class="text-yellow-500 text-sm 2xl:text-base">View Details</a>
                     </div>
                 </div>
             </div>
@@ -102,12 +111,28 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 py-12">
+<div class="middle_section bg-purple-300 bg-blend-multiply backdrop-filter backdrop-blur-sm text-white font-josefin">
+    <div class="container mx-auto px-6 py-12 lg:py-24">
+        <div class="flex justify-start items-center space-x-10">
+
+            <div class="col-span-1 lg:col-span-2">
+                <p class="font-medium text-2xl lg:text-2xl 2xl:text-4xl mb-1">Over</p>
+                <p class="font-bold text-7xl md:text-9xl">115<small>+</small></p>
+            </div>
+
+            <div class="w-auto md:w-1/5">
+                <p class="font-medium text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl">Projects was completely successfully</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
     <div>
-        <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercase">Our Services</h2>
+        <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
         <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
 
-        <h4 class="text-base lg:text-xl 2xl:text-2xl font-medium capitalize mt-6">
+        <h4 class="text-lg lg:text-xl font-medium capitalize mt-6">
             We provide the best consultancy services for your business
         </h4>
     </div>
@@ -124,7 +149,7 @@
                     </svg>
                 </div>
                 <div>
-                    <h2 class="font-medium text-lg lg:text-2xl mb-1">System <br/> Audits</h2>
+                    <h2 class="font-medium text-lg lg:text-xl mb-1">System <br/> Audits</h2>
                 </div>
             </div>
         </div>
@@ -139,7 +164,7 @@
                      </svg>
                 </div>
                 <div>
-                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Infrastructure Design and Implementation</h2>
+                    <h2 class="font-medium text-lg lg:text-xl mb-1">Infrastructure Design and Implementation</h2>
                 </div>
             </div>
         </div>
@@ -157,7 +182,7 @@
                     </svg>
                 </div>
                 <div>
-                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Project Management</h2>
+                    <h2 class="font-medium text-lg lg:text-xl mb-1">Project Management</h2>
                 </div>
             </div>
         </div>
@@ -165,23 +190,65 @@
 </div>
 
 
-<div class="container mx-auto px-6 py-12">
+<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
     <div>
-        <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercase">Products</h2>
+        <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
         <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12 items-center">
         <div class="space-y-6">
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-medium uppercas">Non Payment POS</h2>
+            <h2 class="text-lg md:text-xl xl:text-3xl font-semibold uppercas">Non Payment POS</h2>
 
-            <p class="text-gray-500 text-sm md:text-base 2xl:text-xl">
+            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
             <button class="btn px-6 rounded-sm capitalize bg-yellow-500 border-yellow-500">Find out more</button>
         </div>
 
-        <div></div>
+        <div class="">
+            <img src="https://via.placeholder.com/480" class="object-cover h-auto w-full" alt="placeholder">
+        </div>
     </div>
+</div> 
+
+<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
+        <div class="space-y-4">
+           <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Android <br> POS</h2>
+
+           <img src="https://via.placeholder.com/150.png" alt="placeholder" class="w-full rounded">
+
+            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+           <button class="btn px-6 rounded-sm capitalize border-yellow-500 bg-yellow-500 mt-3">Find out more</button>
+        </div>
+
+        <div class="space-y-4">
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Desktop <br> POS</h2>
+ 
+            <img src="https://via.placeholder.com/150.png" alt="placeholder" class="w-full rounded">
+ 
+             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+ 
+            <button class="btn px-6 rounded-sm capitalize border-yellow-500 bg-yellow-500 mt-3">Find out more</button>
+        </div>
+
+        <div class="space-y-4">
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Android <br> POS</h2>
+ 
+            <img src="https://via.placeholder.com/150.png" alt="placeholder" class="w-full rounded">
+ 
+             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+ 
+            <button class="btn px-6 rounded-sm capitalize border-yellow-500 bg-yellow-500 mt-3">Find out more</button>
+        </div>
+   </div> 
 </div>
