@@ -29,7 +29,7 @@
 <div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
+            <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
             <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
 
             <p class="mt-3 text-sm md:text-base lg:text-lg xl:text-xl">
@@ -129,7 +129,7 @@
 
 <div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
     <div>
-        <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
+        <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
         <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
 
         <h4 class="text-lg lg:text-xl font-medium capitalize mt-6">
@@ -192,7 +192,7 @@
 
 <div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
     <div>
-        <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
+        <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
         <div class="w-16 bg-yellow-500 h-1 mt-1.5"></div>
     </div>
 
@@ -212,6 +212,63 @@
         </div>
     </div>
 </div> 
+
+<div class="relative py-24 md:py-12 2xl:py-24 font-josefin">
+
+    <div class="bg-black py-64">
+        <div class="absolute inset-0 z-10 container mx-auto flex w-full">
+        
+            <div class="bg-white shadow-lg w-full lg:w-3/4 xl:w-7/12 2xl:w-1/2 py-12 px-6">
+                <h1 class="text-xl lg:text-2xl 2xl:text-4xl font-bold text-center capitalize mb-6">Get in touch</h1>
+    
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-12 mb-4 2xl:mb-8">
+                    <div class="flex flex-col">
+                        <label for="" class="font-semibold">First Name</label>
+                        <input 
+                            type="text"
+                            class="border-b border-gray-100 py-4 placeholder-gray-500 placeholder-opacity-70 focus:border-gray-200 focus:outline-none" 
+                            placeholder="Your First Name">
+                    </div>
+    
+                    <div class="flex flex-col">
+                        <label for="" class="font-semibold">Last Name</label>
+                        <input 
+                            type="text"
+                            class="border-b border-gray-100 py-4 placeholder-gray-500 placeholder-opacity-70 focus:border-gray-200 focus:outline-none" 
+                            placeholder="Your Last Name">
+                    </div>
+                </div>
+    
+                <div class="flex flex-col mb-4 2xl:mb-8">
+                    <label for="" class="font-semibold">Your Email Address</label>
+                    <input 
+                        type="email"
+                        class="border-b border-gray-100 py-4 placeholder-gray-500 placeholder-opacity-70 focus:border-gray-200 focus:outline-none" 
+                        placeholder="Your Email Address">
+                </div>
+    
+                <div class="flex flex-col mb-4 2xl:mb-8">
+                    <label for="" class="font-semibold">Your Reason of Contact</label>
+                    <input 
+                        type="text"
+                        class="border-b border-gray-100 py-4 placeholder-gray-500 placeholder-opacity-70 focus:border-gray-200 focus:outline-none" 
+                        placeholder="Business">
+                </div>
+    
+                <div class="flex flex-col mb-4 2xl:mb-8">
+                    <label for="" class="font-semibold">Start Writing From Here</label>
+    
+                    <textarea 
+                        class="border-b border-gray-100 py-4 placeholder-gray-500 placeholder-opacity-70 focus:border-gray-200 focus:outline-none" placeholder="Lorem Ipsum is simply dummy text of the printing and .."
+                        rows="2"></textarea>
+                </div>
+    
+                <button class="btn px-6 rounded-sm capitalize border-yellow-500 bg-yellow-500">Submit</button>
+            </div>
+    
+        </div>
+    </div>
+</div>
 
 <div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
