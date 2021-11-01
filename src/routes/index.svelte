@@ -2,9 +2,20 @@
 	  <title>Lunn</title>
 </svelte:head>
 
+<script>
+    import android_pos from '../assets/images/android_pos.png';
+    import andoid_pos_2 from '../assets/images/andoid_pos_2.png';
+    import desktop_pos from '../assets/images/desktop_pos.png';
+    import android_pos_mini from '../assets/images/android_pos_mini.png';
+</script>
+
 <style>
+.large-text {
+    font-size: 140px;
+}
+
 .middle_section {
-    background-image: url('https://cdn.pixabay.com/photo/2016/10/18/15/13/ec-cash-1750490_960_720.jpg');
+    background-image: url("../assets/images/payments_2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,20 +122,24 @@
     </div>
 </div>
 
-<div class="middle_section bg-purple-300 bg-blend-multiply backdrop-filter backdrop-blur-sm text-white font-josefin">
-    <div class="container mx-auto px-6 py-12 lg:py-24">
-        <div class="flex justify-start items-center space-x-10">
+<div class="middle_section text-white font-josefin">
 
-            <div class="col-span-1 lg:col-span-2">
-                <p class="font-medium text-2xl lg:text-2xl 2xl:text-4xl mb-1">Over</p>
-                <p class="font-bold text-7xl md:text-9xl">115<small>+</small></p>
-            </div>
+    <div class="bg-blue-900 bg-opacity-70">
+        <div class="container mx-auto px-6 py-12 lg:py-24">
+            <div class="flex justify-start items-center space-x-10">
 
-            <div class="w-auto md:w-1/5">
-                <p class="font-medium text-xl sm:text-2xl lg:text-3xl 2xl:text-4xl">Projects was completely successfully</p>
+                <div class="">
+                    <p class="font-medium text-3xl lg:text-4xl 2xl:text-5xl mb-1">Over</p>
+                    <p class="font-bold text-7xl lg:text-9xl xl:large-text">115<small>+</small></p>
+                </div>
+
+                <div class="w-auto md:w-1/5">
+                    <p class="font-medium text-xl sm:text-3xl lg:text-4xl 2xl:text-5xl">Projects was completely successfully</p>
+                </div>
             </div>
         </div>
     </div>
+    
 </div>
 
 <div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
@@ -137,7 +152,7 @@
         </h4>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-10 mt-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-12">
 
         <div class="card border border-gray-100 shadow-lg">
             <div class="card-body">
@@ -149,7 +164,7 @@
                     </svg>
                 </div>
                 <div>
-                    <h2 class="font-medium text-lg lg:text-xl mb-1">System <br/> Audits</h2>
+                    <h2 class="font-medium text-lg lg:text-2xl mb-1">System <br/> Audits</h2>
                 </div>
             </div>
         </div>
@@ -164,7 +179,7 @@
                      </svg>
                 </div>
                 <div>
-                    <h2 class="font-medium text-lg lg:text-xl mb-1">Infrastructure Design and Implementation</h2>
+                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Infrastructure Design and Implementation</h2>
                 </div>
             </div>
         </div>
@@ -182,13 +197,12 @@
                     </svg>
                 </div>
                 <div>
-                    <h2 class="font-medium text-lg lg:text-xl mb-1">Project Management</h2>
+                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Project <br/> Management</h2>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
     <div>
@@ -208,7 +222,7 @@
         </div>
 
         <div class="">
-            <img src="https://via.placeholder.com/480" class="object-cover h-auto w-full" alt="placeholder">
+            <img src={android_pos} class="object-cover h-auto w-full" alt="placeholder">
         </div>
     </div>
 </div> 
@@ -218,7 +232,7 @@
     <div class="bg-black py-64">
         <div class="absolute inset-0 z-10 container mx-auto flex w-full">
         
-            <div class="bg-white shadow-lg w-full lg:w-3/4 xl:w-7/12 2xl:w-1/2 py-12 px-6">
+            <div class="bg-white border border-gray-100 shadow-lg rounded-md w-full lg:w-3/4 xl:w-7/12 2xl:w-1/2 py-12 px-6">
                 <h1 class="text-xl lg:text-2xl 2xl:text-4xl font-bold text-center capitalize mb-6">Get in touch</h1>
     
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-12 mb-4 2xl:mb-8">
@@ -275,7 +289,7 @@
         <div class="space-y-4">
            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Android <br> POS</h2>
 
-           <img src="https://via.placeholder.com/150.png" alt="placeholder" class="w-full rounded">
+           <img src={andoid_pos_2} alt="placeholder" class="w-full rounded">
 
             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -287,7 +301,7 @@
         <div class="space-y-4">
             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Desktop <br> POS</h2>
  
-            <img src="https://via.placeholder.com/150.png" alt="placeholder" class="w-full rounded">
+            <img src={desktop_pos} alt="placeholder" class="w-full rounded">
  
              <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -299,7 +313,7 @@
         <div class="space-y-4">
             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Android <br> POS</h2>
  
-            <img src="https://via.placeholder.com/150.png" alt="placeholder" class="w-full rounded">
+            <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
  
              <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
