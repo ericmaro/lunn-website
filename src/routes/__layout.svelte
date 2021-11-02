@@ -109,7 +109,7 @@
 				</div>
 
 				<button 
-					class="btn rounded capitalize text-lg px-6 border-none bg-animated-button-1 flex items-center space-x-1.5 transition-all duration-200 ease-in-out">
+					class="btn rounded capitalize text-lg px-6 border-none bg-animated-button-1 flex items-center space-x-1.5">
 					<span>Contact Us</span>
 
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

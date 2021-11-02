@@ -7,32 +7,70 @@
     import andoid_pos_2 from '../assets/images/andoid_pos_2.png';
     import desktop_pos from '../assets/images/desktop_pos.png';
     import android_pos_mini from '../assets/images/android_pos_mini.png';
+    import payment from '../assets/images/payments.png';
 </script>
 
 <style>
-.large-text {
-    font-size: 140px;
-}
-
 .middle_section {
     background-image: url("../assets/images/payments_2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-animated-button-2 {
+	background: linear-gradient(to right, white 50%, #F59E0B 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
+}
+
+.bg-animated-button-2:hover {
+	background-position: left bottom;
+    color: #F59E0B;
+}
 </style>
 
-<div class="hero" style="height:640px !important; background-image: url(&quot;https://picsum.photos/id/1005/1600/1400&quot;);">
-    <div class="hero-overlay bg-opacity-60"></div> 
-    <div class="text-center hero-content text-neutral-content">
-        <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">
-                Hello there
-            </h1> 
-            <p class="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-            </p> 
-            <button class="btn btn-primary">Get Started</button>
+<div class="hero relative font-josefin">
+
+    <div class="flex w-full">
+        <div class="relative w-full md:w-3/5 lg:w-4/6 2xl:w-9/12">
+            <img src={payment} alt="" class="w-full border-none">
+            <span class="absolute inset-0 bg-black bg-opacity-40"></span>
+        </div>
+
+        <div class="bg-blue-900 bg-opacity-90 border-none w-full md:w-2/5 lg:w-2/6 2xl:w-3/12 px-6 2xl:px-12 py-12">
+            <div class="flex flex-col justify-end space-y-4 text-base lg:text-lg 2xl:text-2xl text-white font-medium h-full">
+                <p class="flex items-baseline space-x-2 uppercase">
+                    <span class="h-4 w-4 bg-yellow-500"></span>
+                    <span>mobile/internet banking</span>
+                </p>
+                <p class="flex items-baseline space-x-2 uppercase">
+                    <span class="h-4 w-4 bg-yellow-500"></span>
+                    <span>agency banking</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="absolute inset-0 w-full">
+        <div class="flex justify-end items-center h-full">
+            <div class="w-1/2 2xl:w-2/5 py-6 2xl:py-12 px-10 xl:mb-10 2xl:mb-0 bg-blue-900 text-white border border-blue-900 shadow">
+                <div class="flex flex-col justify-center h-auto">
+                    <p class="text-base lg:text-4xl 2xl:text-4xl font-medium text-yellow-500">Creative Payment</p>
+                    <p class="text-xl lg:text-5xl 2xl:text-6xl font-bold">SOLUTIONS</p>
+                </div>
+
+                <button 
+					class="btn 2xl:btn-lg rounded capitalize text-sm xl:text-lg px-6 bg-animated-button-2 flex items-center space-x-1.5 mt-4">
+					<span>Getting Started</span>
+
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path>
+					</svg>
+				</button>
+            </div>
         </div>
     </div>
 </div>
