@@ -5,6 +5,20 @@
 	import logo from '../assets/images/logo-black.png';
 </script>
 
+<style>
+.bg-animated-button-1 {
+	background: linear-gradient(to right, #1E3A8A 50%, #F59E0B 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
+	background-size: 200% 100%;
+}
+
+.bg-animated-button-1:hover {
+	background-position: left bottom;
+}
+</style>
+
 <nav class="bg-gray-100 text-gray-800 font-poppins">
 	<div class="max-w-7xl mx-auto px-4 py-3">
 		<div class="flex flex-wrap lg:flex-nowrap justify-between items-center space-x-4 text-sm font-normal">
@@ -95,7 +109,7 @@
 				</div>
 
 				<button 
-					class="btn rounded-sm capitalize text-lg px-6 bg-yellow-500 border-yellow-500 flex items-center space-x-1.5 transition-all duration-500 ease-in-out">
+					class="btn rounded capitalize text-lg px-6 border-none bg-animated-button-1 flex items-center space-x-1.5 transition-all duration-200 ease-in-out">
 					<span>Contact Us</span>
 
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

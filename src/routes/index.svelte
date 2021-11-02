@@ -303,9 +303,9 @@
  
             <img src={desktop_pos} alt="placeholder" class="w-full rounded">
  
-             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-             </p>
+            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
  
             <button class="btn px-6 rounded-sm capitalize border-yellow-500 bg-yellow-500 mt-3">Find out more</button>
         </div>
@@ -315,9 +315,9 @@
  
             <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
  
-             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-             </p>
+            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
  
             <button class="btn px-6 rounded-sm capitalize border-yellow-500 bg-yellow-500 mt-3">Find out more</button>
         </div>
