@@ -42,11 +42,11 @@
         <div class="bg-blue-900 bg-opacity-90 border-none w-full md:w-2/5 lg:w-2/6 2xl:w-3/12 px-6 2xl:px-12 py-12">
             <div class="flex flex-col justify-end space-y-4 text-base lg:text-lg 2xl:text-2xl text-white font-medium h-full">
                 <p class="flex items-baseline space-x-2 uppercase">
-                    <span class="h-4 w-4 bg-yellow-500"></span>
+                    <span class="h-4 w-4 bg-orange-400"></span>
                     <span>mobile/internet banking</span>
                 </p>
                 <p class="flex items-baseline space-x-2 uppercase">
-                    <span class="h-4 w-4 bg-yellow-500"></span>
+                    <span class="h-4 w-4 bg-orange-400"></span>
                     <span>agency banking</span>
                 </p>
             </div>
@@ -325,7 +325,7 @@
 <div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
         <div class="space-y-4">
-           <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Android <br> POS</h2>
+           <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
 
            <img src={andoid_pos_2} alt="placeholder" class="w-full rounded">
 
@@ -337,7 +337,7 @@
         </div>
 
         <div class="space-y-4">
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Desktop <br> POS</h2>
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Desktop <br> POS</h2>
  
             <img src={desktop_pos} alt="placeholder" class="w-full rounded">
  
@@ -349,7 +349,7 @@
         </div>
 
         <div class="space-y-4">
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold uppercas">Android <br> POS</h2>
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
  
             <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
  
