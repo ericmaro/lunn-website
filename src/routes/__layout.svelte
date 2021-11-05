@@ -84,7 +84,7 @@
 				<div class="items-stretch hidden lg:flex text-base xl:text-lg">
 					<a href="/" class="flex items-center px-3 py-2 font-medium hover:text-yellow-500">Home</a>
 
-					<a href="/" class="flex items-center px-3 py-2 font-medium hover:text-yellow-500">Company</a>
+					<a href="/company" class="flex items-center px-3 py-2 font-medium hover:text-yellow-500">Company</a>
 
 					<a href="/" class="flex items-center space-x-2 px-3 py-2 font-medium hover:text-yellow-500">
 						<span>Smart POS</span>
@@ -108,7 +108,8 @@
 					</a>
 				</div>
 
-				<button 
+				<a 
+					href="/contact" 
 					class="btn rounded capitalize text-lg px-6 border-none bg-animated-button-1 flex items-center space-x-1.5">
 					<span>Contact Us</span>
 
@@ -116,7 +117,7 @@
 						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 						<path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path>
 					</svg>
-				</button>
+				</a>
 			</div>
 		</div>
 	</div>

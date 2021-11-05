@@ -38,12 +38,11 @@
 		"svelte-check": "^2.0.0",
 		"svelte-forms-lib": "^1.10.5",
 		"svelte-loading-spinners": "^0.1.7",
-		"svelte-preprocess": "^4.7.4",
+		"svelte-preprocess": "^4.9.8",
 		"tailwindcss": "^2.2.4",
 		"tslib": "^2.0.0",
 		"typescript": "^4.0.0",
 		"yup": "^0.32.9"
 	},
-	"type": "module",
-	"dependencies": {}
+	"type": "module"
 }
