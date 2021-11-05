@@ -1,7 +1,16 @@
+const colors = require('tailwindcss/colors')
+
 const config = {
 	// mode: 'jit',
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		colors: {
+			white: colors.white,
+			black: colors.black,
+			orange: colors.orange,
+			gray: colors.trueGray,
+			blue: colors.blue,
+		},
 		extend: {
 			fontFamily: {
 				poppins: ['Poppins'],
