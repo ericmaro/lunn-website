@@ -16,6 +16,7 @@ const config = {
 				poppins: ['Poppins'],
 				josefin: ['Josefin Sans']
 			},
+			display: ['group-hover'],
 			textColor: {
 				skin: {
 					base: 'var(--color-text-base)',
