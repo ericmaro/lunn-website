@@ -174,7 +174,7 @@
     
             <div class="relative flex justify-center">
                 <img src={companyPageImg} alt="5343" class="object-center">
-                <div class="absolute insert-0 w-full h-full">
+                <!-- <div class="absolute insert-0 w-full h-full">
                     <div class="flex justify-center items-center w-full h-full">
                         <div class="flex justify-center items-center animate-pulse bg-orange-400 h-16 w-16 rounded-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -183,7 +183,7 @@
                             </svg>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
     
         </div>
