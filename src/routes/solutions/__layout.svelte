@@ -1,11 +1,12 @@
 
-<div class="bg-gray-50 py-12">
-    <div class="container mx-auto px-4 flex space-x-8 font-josefin">
-        <div class="bg-white w-full md:w-3/5 xl:w-3/4">
+<div class="bg-gray-50">
+    <div class="container mx-auto px-8 flex flex-wrap md:flex-nowrap md:space-x-8 xl:space-x-14 font-josefin">
+
+        <div class="w-full md:w-3/5 2xl:w-3/4 my-12">
             <slot />
         </div>
     
-        <div class="w-full md:w-2/5 xl:w-1/4 space-y-8">
+        <div class="w-full md:w-2/5 2xl:w-1/4 space-y-8 my-12">
             <div class="border rounded-md py-6 px-8 bg-white">
                 <h2 class="text-lg md:text-xl xl:text-3xl font-bold xl mb-8">All Our Services</h2>
     
@@ -78,5 +79,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
