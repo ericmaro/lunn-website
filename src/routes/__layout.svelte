@@ -164,17 +164,17 @@
 							<ul class="flex flex-col py-4 px-3 font-semibold text-sm 2xl:text-base">
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
 									<a href="/" class="flex space-x-1.5 items-center">
-										<span>POS Cloud Management</span>
+										<span>Agency Banking</span>
 									</a>
 								</li>
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/" class="flex space-x-1.5 items-center">
+									<a href="/solutions/gateway" class="flex space-x-1.5 items-center">
 										<span>Payment Gateway</span>
 									</a>
 								</li>
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/" class="flex space-x-1.5 items-center">
-										<span>Mobile Banking</span>
+									<a href="/solutions/mobile_banking" class="flex space-x-1.5 items-center">
+										<span>Mobile & Internet Banking</span>
 									</a>
 								</li>
 							</ul>
