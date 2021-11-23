@@ -8,6 +8,8 @@
     import desktop_pos from '../assets/images/desktop_pos.png';
     import android_pos_mini from '../assets/images/android_pos_mini.png';
     import payment from '../assets/images/payments.png';
+
+    import Slider from '../components/Slider.svelte';
 </script>
 
 <style>
@@ -31,51 +33,9 @@
 }
 </style>
 
-<div class="hero relative font-josefin">
+<Slider />
 
-    <div class="flex w-full">
-        <div class="relative w-full md:w-3/5 lg:w-4/6 2xl:w-9/12">
-            <img src={payment} alt="" class="w-full border-none">
-            <span class="absolute inset-0 bg-black bg-opacity-40"></span>
-        </div>
-
-        <div class="bg-blue-900 bg-opacity-90 border-none w-full md:w-2/5 lg:w-2/6 2xl:w-3/12 px-6 2xl:px-12 py-12">
-            <div class="flex flex-col justify-end space-y-4 text-base lg:text-lg 2xl:text-2xl text-white font-medium h-full">
-                <p class="flex items-baseline space-x-2 uppercase">
-                    <span class="h-4 w-4 bg-orange-400"></span>
-                    <span>mobile/internet banking</span>
-                </p>
-                <p class="flex items-baseline space-x-2 uppercase">
-                    <span class="h-4 w-4 bg-orange-400"></span>
-                    <span>agency banking</span>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="absolute inset-0 w-full">
-        <div class="flex justify-end items-center h-full">
-            <div class="w-1/2 2xl:w-2/5 py-6 2xl:py-12 px-10 xl:mb-10 2xl:mb-0 bg-blue-900 text-white border border-blue-900 shadow">
-                <div class="flex flex-col justify-center h-auto">
-                    <p class="text-base lg:text-4xl 2xl:text-4xl font-medium text-yellow-500">Creative Payment</p>
-                    <p class="text-xl lg:text-5xl 2xl:text-6xl font-bold">SOLUTIONS</p>
-                </div>
-
-                <button 
-					class="btn 2xl:btn-lg rounded capitalize text-sm xl:text-lg px-6 bg-animated-button-2 flex items-center space-x-1.5 mt-4">
-					<span>Getting Started</span>
-
-					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-						<path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)"></path>
-					</svg>
-				</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
+<div class="container mx-auto px-6 py-12 lg:py-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
             <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
@@ -160,7 +120,7 @@
     </div>
 </div>
 
-<div class="middle_section text-white font-josefin">
+<div class="middle_section text-white">
 
     <div class="bg-blue-900 bg-opacity-70">
         <div class="container mx-auto px-6 py-12 lg:py-24">
@@ -180,7 +140,7 @@
     
 </div>
 
-<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
+<div class="container mx-auto px-6 py-12 lg:py-24">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -242,7 +202,7 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
+<div class="container mx-auto px-6 py-12 lg:py-24">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -263,9 +223,51 @@
             <img src={android_pos} class="object-cover h-auto w-full" alt="placeholder">
         </div>
     </div>
-</div> 
+</div>
 
-<div class="relative py-24 md:py-12 2xl:py-24 font-josefin">
+<div class="container mx-auto px-6 py-12 lg:py-24">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
+         <div class="space-y-4">
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
+ 
+            <img src={andoid_pos_2} alt="placeholder" class="w-full rounded">
+ 
+             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+ 
+            <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
+         </div>
+ 
+         <div class="space-y-4">
+             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Desktop <br> POS</h2>
+  
+             <img src={desktop_pos} alt="placeholder" class="w-full rounded">
+  
+             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+  
+             <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
+         </div>
+ 
+         <div class="space-y-4">
+             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
+  
+             <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
+  
+             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+  
+             <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
+         </div>
+    </div> 
+</div>
+
+
+<div class="relative py-24 md:py-12 2xl:py-24">
 
     <div class="bg-black py-64">
         <div class="absolute inset-0 z-10 container mx-auto flex w-full">
@@ -322,42 +324,3 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 py-12 lg:py-24 font-josefin">
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
-        <div class="space-y-4">
-           <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
-
-           <img src={andoid_pos_2} alt="placeholder" class="w-full rounded">
-
-            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-
-           <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
-        </div>
-
-        <div class="space-y-4">
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Desktop <br> POS</h2>
- 
-            <img src={desktop_pos} alt="placeholder" class="w-full rounded">
- 
-            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
- 
-            <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
-        </div>
-
-        <div class="space-y-4">
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
- 
-            <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
- 
-            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
- 
-            <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
-        </div>
-   </div> 
-</div>

@@ -14,7 +14,7 @@ const config = {
 		extend: {
 			fontFamily: {
 				poppins: ['Poppins'],
-				josefin: ['Josefin Sans']
+				roboto: ['Roboto']
 			},
 			display: ['group-hover'],
 			textColor: {
