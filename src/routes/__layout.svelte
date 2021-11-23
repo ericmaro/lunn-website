@@ -202,7 +202,7 @@
 	<slot />
 </div>
 
-<footer class="container mx-auto px-6 pt-24 font-roboto">
+<footer class="container mx-auto px-6 md:px-12 pt-24 font-roboto">
 	<div class="flex flex-wrap items-start space-y-6 lg:space-y-0 lg:space-x-6 py-12">
 		<div class="w-full lg:w-1/3 space-y-6">
 			<div>

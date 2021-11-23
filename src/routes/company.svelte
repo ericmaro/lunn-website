@@ -26,7 +26,7 @@
 </style>
 
 <div class="bg-gray-50">
-    <div class="container mx-auto px-6 py-12 lg:py-24">
+    <div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     
             <div class="space-y-10">

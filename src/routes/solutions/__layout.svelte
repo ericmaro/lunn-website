@@ -1,6 +1,6 @@
 
 <div class="bg-gray-50">
-    <div class="container mx-auto px-8 flex flex-wrap md:flex-nowrap md:space-x-8 xl:space-x-14">
+    <div class="container mx-auto px-6 md:px-12 flex flex-wrap md:flex-nowrap md:space-x-8 xl:space-x-14">
 
         <div class="w-full md:w-3/5 2xl:w-3/4 my-12">
             <slot />

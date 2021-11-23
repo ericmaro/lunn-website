@@ -14,7 +14,7 @@
 
 
 <div class="bg-gray-50">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-6 md:px-12">
 
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div>

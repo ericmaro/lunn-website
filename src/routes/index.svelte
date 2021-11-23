@@ -35,7 +35,7 @@
 
 <Slider />
 
-<div class="container mx-auto px-6 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
             <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
@@ -140,7 +140,7 @@
     
 </div>
 
-<div class="container mx-auto px-6 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -202,7 +202,7 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -225,7 +225,7 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
          <div class="space-y-4">
