@@ -7,9 +7,9 @@
 
     let activeSlider = 0;
     let sliders = [
-        { imgSource: Slider_1, },
-        { imgSource: Slider_2, },
-        { imgSource: Slider_3, },
+        { imgSource: Slider_1, title: "Creative Payment Solutions", labels: ["Merchant & Retail Acquiring", "Mobile & Agency Banking"] },
+        { imgSource: Slider_2, title: "Next Generation Smart POS Terminals", labels: ["Robust", "Artistic Design"] },
+        { imgSource: Slider_3, title: "Next Generation Smart POS Terminals", labels: ["Web based Platform"] },
     ]
 
     onMount(() => {
@@ -56,15 +56,14 @@
                         </svg>
                     </button>
                 </figcaption>
+                
                 <div class="absolute right-0 inset-y-0 flex flex-col justify-end space-y-3 bg-blue-900 text-white bg-opacity-90 md:w-2/5 lg:w-2/6 2xl:w-3/12 px-6 2xl:px-12 py-20 h-full">
-                    <p class="flex items-baseline space-x-2 uppercase text-base lg:text-lg 2xl:text-2xl">
-                        <span class="h-4 w-4 bg-orange-400"></span>
-                        <span>mobile / internet banking</span>
-                    </p>
-                    <p class="flex items-baseline space-x-2 uppercase text-base lg:text-lg 2xl:text-2xl">
-                        <span class="h-4 w-4 bg-orange-400"></span>
-                        <span>agency banking</span>
-                    </p>
+                    {#each slider.labels as label}
+                        <p class="flex items-baseline space-x-2 uppercase text-base lg:text-lg 2xl:text-2xl">
+                            <span class="h-4 w-4 bg-orange-400"></span>
+                            <span>{label}</span>
+                        </p>
+                    {/each}
                 </div>
             {/if}
         </figure>
