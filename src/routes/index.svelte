@@ -227,39 +227,59 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
          <div class="space-y-4">
-            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">MPOS Card <br> Reader</h2>
  
             <img src={andoid_pos_2} alt="placeholder" class="w-full rounded">
- 
-             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-             </p>
+
+            <div class="text-gray-500 text-sm lg:text-base space-y-4">
+                <p>
+                    MPOS Card Reader features a high light mirror, beautiful shape, non-slip design, to enhance the user experience with a 2.0-inch color LCD display screen, clear and bright display color.
+                </p>
+                <p>
+                    It works a very Flexible Platform, Bluetooth 4.0, IOS / Android compatible Inbuilt contactless module, supports Union pay, Apple Pay and Android Pay.
+                </p>
+
+                <ul class="list-inside list-disc">
+                    <li>PCI PTS 5.X and CUP security standards certified</li>
+                    <li>High-level security chip and Multiple tampering and disassemble self-destruction mechanism</li>
+                    <li>Supports DES, 3DES algorithm, effectively secure the cardholder</li>
+                </ul>
+            </div>
+            
  
             <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
          </div>
  
          <div class="space-y-4">
-             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Desktop <br> POS</h2>
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android Desktop <br> Terminal</h2>
   
-             <img src={desktop_pos} alt="placeholder" class="w-full rounded">
+            <img src={desktop_pos} alt="placeholder" class="w-full rounded">
+
+            <div class="text-gray-500 text-sm lg:text-base space-y-4">
+                <p>
+                    Smart Android Desktop POS provides more space and more possibilities. With 10.1 HD IPS Enhancement technology on touch, D3 makes touch smoother. 2-inch built-in printer with auto-cut in Android desktop POS print swiftly and smoothly. Lithium Polymer battery 2600mAh@ 7.4V provides a full 2 Hour battery work without power supply.
+                </p>
+                <p>
+                    With remote control function on Android mobile POS, technician can control user's device remotely just like operating a local device. The problem can be easily found and solved with user's help.
+                </p>
+            </div>
   
-             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-             </p>
-  
-             <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
+            <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
          </div>
  
          <div class="space-y-4">
-             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android <br> POS</h2>
-  
-             <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
-  
-             <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl text-justify">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-             </p>
-  
-             <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
+            <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">Android Mini<br> POS</h2>
+
+            <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
+
+            <div class="text-gray-500 text-sm lg:text-base space-y-4">
+                <p>Light and thin, easy to operate with one hand, P5 Liberate the other hand of the waiter. It delivers strong performance through the operation system powered by Android 10.0 and MT6739 ARM quad core cortex-A53high-speed processor.</p>
+                <p>
+                    The P3 enables all payment methods, from EMV Contactless or chip & PIN/chip & sign to traditional swipe methods. It also supports new methods such as NFC couponing or mobile wallets. Providing full-spectrum wireless connectivity with embedded 4G/3G/2G and Wi-Fi, the Toast Go2 enables payment acceptance anywhere while optimizingcommunication costs.
+                </p>
+            </div>
+
+            <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
          </div>
     </div> 
 </div>
