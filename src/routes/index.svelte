@@ -35,7 +35,7 @@
 
 <Slider />
 
-<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
             <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
@@ -121,9 +121,8 @@
 </div>
 
 <div class="middle_section text-white">
-
     <div class="bg-blue-900 bg-opacity-70">
-        <div class="container mx-auto px-6 py-12 lg:py-24">
+        <div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
             <div class="flex justify-start items-center space-x-10">
 
                 <div class="">
@@ -131,16 +130,15 @@
                     <p class="font-bold text-7xl lg:text-9xl xl:large-text">115<small>+</small></p>
                 </div>
 
-                <div class="w-auto md:w-1/5">
+                <div class="w-auto md:w-1/4">
                     <p class="font-medium text-xl sm:text-3xl lg:text-4xl 2xl:text-5xl">Projects was completely successfully</p>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </div>    
 </div>
 
-<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -202,7 +200,7 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -225,7 +223,7 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 md:px-12 py-12 lg:py-24">
+<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
          <div class="space-y-4">
@@ -266,8 +264,7 @@
     </div> 
 </div>
 
-
-<div class="relative py-24 md:py-12 2xl:py-24">
+<div class="relative py-24 md:py-12 xl:px-24 2xl:py-24">
 
     <div class="bg-black py-64">
         <div class="absolute inset-0 z-10 container mx-auto flex w-full">

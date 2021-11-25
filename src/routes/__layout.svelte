@@ -44,7 +44,7 @@
 
 <nav class="bg-gray-50 text-gray-800 font-poppins">
 	<div class="max-w-7xl mx-auto px-4 py-3">
-		<div class="flex flex-wrap lg:flex-nowrap justify-between items-center space-x-4 text-sm font-normal">
+		<div class="flex flex-wrap lg:flex-nowrap justify-between items-center space-y-2 md:space-y-0 md:space-x-4 text-sm font-normal">
 
 			<div class="flex space-x-2">
 				<span>
@@ -202,7 +202,7 @@
 	<slot />
 </div>
 
-<footer class="container mx-auto px-6 md:px-12 pt-24 font-roboto">
+<footer class="container mx-auto px-6 md:px-12 xl:px-24 pt-24 font-roboto">
 	<div class="flex flex-wrap items-start space-y-6 lg:space-y-0 lg:space-x-6 py-12">
 		<div class="w-full lg:w-1/3 space-y-6">
 			<div>
