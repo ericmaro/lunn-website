@@ -3,19 +3,19 @@
     import Slider_2 from '../assets/images/slider/slider_2.jpg';
     import Slider_3 from '../assets/images/slider/slider_3.jpg';
     import { onMount } from 'svelte';
-    import { fade } from 'svelte/transition';
+    import { fade, scale } from 'svelte/transition';
 
     let activeSlider = 0;
     let sliders = [
-        { imgSource: Slider_1, title: "Creative Payment Solutions", labels: ["Merchant & Retail Acquiring", "Mobile & Agency Banking"] },
-        { imgSource: Slider_2, title: "Next Generation Smart POS Terminals", labels: ["Robust", "Artistic Design"] },
-        { imgSource: Slider_3, title: "Next Generation Smart POS Terminals", labels: ["Web based Platform"] },
+        { imgSource: Slider_1, title_A: "Creative Payment", title_B: "Solutions", labels: ["Merchant & Retail Acquiring", "Mobile & Agency Banking"] },
+        { imgSource: Slider_2, title_A: "Next Generation", title_B: "Smart POS Terminals", labels: ["Robust", "Artistic Design"] },
+        { imgSource: Slider_3, title_A: "Advanced Terminal", title_B: "Management System", labels: ["Web based Platform"] },
     ]
 
     onMount(() => {
 		const interval = setInterval(() => {
             activeSlider < sliders.length - 1 ? activeSlider += 1 : activeSlider = 0;
-		}, 4000);
+		}, 8000);
 
 		return;
 	});
@@ -38,13 +38,16 @@
 <div class="overflow-hidden">
     <section class="relative">
     {#each sliders as slider, index}
-        <figure class="h-44 md:h-52 2xl:h-64" transition:fade>
+        <figure class="h-44 md:h-52 2xl:h-64">
             {#if index == activeSlider}
-                <img src={slider.imgSource} alt="slider" class="absolute left-0 inset-y-0 h-full w-full md:w-3/5 lg:w-4/6 2xl:w-9/12 object-cover">
-                <figcaption class="absolute z-10 right-0 top-24 2xl:top-40 space-y-8 bg-blue-900 text-white w-2/3 lg:w-1/2 2x:lw-1/3 px-10 py-16">
+                <img src={slider.imgSource} alt="slider" class="absolute left-0 inset-y-0 h-full w-full md:w-3/5 lg:w-4/6 2xl:w-9/12 object-cover" 
+                in:fade={{ duration: 1500 }} out:fade>
+
+                <figcaption class="absolute z-10 right-0 top-24 2xl:top-40 space-y-8 bg-blue-900 text-white w-2/3 lg:w-1/2 2x:lw-1/3 px-10 py-16" 
+                in:scale={{ duration: 1500 }} out:fade>
                     <div class="space-y-1.5">
-                        <p class="text-5xl text-orange-400">Creative Payment</p>
-                        <p class="text-6xl font-bold">SOLUTIONS</p>
+                        <p class="text-5xl text-orange-400">{slider.title_A}</p>
+                        <p class="text-6xl font-bold uppercase">{slider.title_B}</p>
                     </div>
                     <button 
                         class="btn 2xl:btn-lg rounded capitalize text-sm md:text-lg px-6 bg-animated-button-2 flex items-center space-x-1.5 mt-4">
@@ -57,7 +60,8 @@
                     </button>
                 </figcaption>
                 
-                <div class="absolute right-0 inset-y-0 flex flex-col justify-end space-y-3 bg-blue-900 text-white bg-opacity-90 md:w-2/5 lg:w-2/6 2xl:w-3/12 px-6 2xl:px-12 py-20 h-full">
+                <div class="absolute right-0 inset-y-0 flex flex-col justify-end space-y-3 bg-blue-900 text-white bg-opacity-90 md:w-2/5 lg:w-2/6 2xl:w-3/12 px-6 2xl:px-12 py-20 h-full" 
+                in:scale={{ duration: 1500 }} out:fade>
                     {#each slider.labels as label}
                         <p class="flex items-baseline space-x-2 uppercase text-base lg:text-lg 2xl:text-2xl">
                             <span class="h-4 w-4 bg-orange-400"></span>
