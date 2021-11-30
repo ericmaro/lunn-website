@@ -198,11 +198,11 @@
 		</div>
 	</div>
 </nav>
-<div class="font-roboto">
+<div class="font-josefin">
 	<slot />
 </div>
 
-<footer class="container-fluid pt-24 font-roboto">
+<footer class="container-fluid pt-24 font-josefin">
 	<div class="flex flex-wrap items-start space-y-6 lg:space-y-0 lg:space-x-6 py-12">
 		<div class="w-full lg:w-1/3 space-y-6">
 			<div>

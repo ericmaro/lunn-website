@@ -74,7 +74,7 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-semibold text-lg lg:text-2xl mb-1">Mobile Banking</h2>
+                        <h2 class="font-bold text-lg lg:text-2xl mb-1">Mobile Banking</h2>
                         <a href="/" class="text-orange-400 text-sm 2xl:text-base">View Details</a>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
 
-        <h4 class="text-lg lg:text-xl font-medium capitalize mt-6">
+        <h4 class="text-lg lg:text-2xl font-semibold capitalize mt-6">
             We provide the best consultancy services for your business
         </h4>
     </div>
@@ -208,7 +208,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12 items-center">
         <div class="space-y-6">
-            <h2 class="text-lg md:text-xl xl:text-3xl font-semibold uppercas">Non Payment POS</h2>
+            <h2 class="text-lg md:text-xl xl:text-3xl font-semibold">Non Payment POS</h2>
 
             <p class="text-sm md:text-base lg:text-lg xl:text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
