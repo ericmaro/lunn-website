@@ -3,7 +3,7 @@
 </svelte:head>
 
 <script>
-    import android_pos from '../assets/images/android_pos.png';
+    import home_product_2 from '../assets/images/home-product-2.jpeg';
     import andoid_pos_2 from '../assets/images/andoid_pos_2.png';
     import desktop_pos from '../assets/images/desktop_pos.png';
     import android_pos_mini from '../assets/images/android_pos_mini.png';
@@ -35,7 +35,7 @@
 
 <Slider />
 
-<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
+<div class="container-fluid">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
             <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
@@ -138,7 +138,7 @@
     </div>    
 </div>
 
-<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
+<div class="container-fluid">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -148,7 +148,7 @@
         </h4>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
 
         <div class="card border border-gray-100 shadow-lg">
             <div class="card-body">
@@ -200,7 +200,7 @@
     </div>
 </div>
 
-<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
+<div class="container-fluid">
     <div>
         <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
         <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
@@ -210,7 +210,7 @@
         <div class="space-y-6">
             <h2 class="text-lg md:text-xl xl:text-3xl font-semibold uppercas">Non Payment POS</h2>
 
-            <p class="text-gray-500 text-sm md:text-base lg:text-lg xl:text-xl">
+            <p class="text-sm md:text-base lg:text-lg xl:text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
@@ -218,20 +218,20 @@
         </div>
 
         <div class="">
-            <img src={android_pos} class="object-cover h-auto w-full" alt="placeholder">
+            <img src={home_product_2} class="object-cover rounded-md h-auto w-full" alt="placeholder">
         </div>
     </div>
 </div>
 
-<div class="container mx-auto px-6 md:px-12 xl:px-24 py-12 lg:py-24">
+<div class="container-fluid">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-24">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 lg:gap-24">
          <div class="space-y-4">
             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">MPOS Card <br> Reader</h2>
  
             <img src={andoid_pos_2} alt="placeholder" class="w-full rounded">
 
-            <div class="text-gray-500 text-sm lg:text-base space-y-4">
+            <div class="text-sm xl:text-base leading-6 space-y-4">
                 <p>
                     MPOS Card Reader features a high light mirror, beautiful shape, non-slip design, to enhance the user experience with a 2.0-inch color LCD display screen, clear and bright display color.
                 </p>
@@ -255,7 +255,7 @@
   
             <img src={desktop_pos} alt="placeholder" class="w-full rounded">
 
-            <div class="text-gray-500 text-sm lg:text-base space-y-4">
+            <div class="text-sm xl:text-base leading-6 space-y-4">
                 <p>
                     Smart Android Desktop POS provides more space and more possibilities. With 10.1 HD IPS Enhancement technology on touch, D3 makes touch smoother. 2-inch built-in printer with auto-cut in Android desktop POS print swiftly and smoothly. Lithium Polymer battery 2600mAh@ 7.4V provides a full 2 Hour battery work without power supply.
                 </p>
@@ -272,7 +272,7 @@
 
             <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
 
-            <div class="text-gray-500 text-sm lg:text-base space-y-4">
+            <div class="text-sm xl:text-base leading-6 space-y-4">
                 <p>Light and thin, easy to operate with one hand, P5 Liberate the other hand of the waiter. It delivers strong performance through the operation system powered by Android 10.0 and MT6739 ARM quad core cortex-A53high-speed processor.</p>
                 <p>
                     The P3 enables all payment methods, from EMV Contactless or chip & PIN/chip & sign to traditional swipe methods. It also supports new methods such as NFC couponing or mobile wallets. Providing full-spectrum wireless connectivity with embedded 4G/3G/2G and Wi-Fi, the Toast Go2 enables payment acceptance anywhere while optimizingcommunication costs.
@@ -284,9 +284,9 @@
     </div> 
 </div>
 
-<div class="relative py-24 md:py-12 xl:px-24 2xl:py-24">
+<div class="bg-red-800 relative py-24 md:py-12 2xl:py-24">
 
-    <div class="bg-black py-64">
+    <div class="bg-black w-full py-64">
         <div class="absolute inset-0 z-10 container mx-auto flex w-full">
         
             <div class="bg-white border border-gray-100 shadow-lg rounded-md w-full lg:w-3/4 xl:w-7/12 2xl:w-1/2 py-12 px-6">
