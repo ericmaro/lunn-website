@@ -5,7 +5,8 @@
 	import logo from '../assets/images/logo-black.png';
 
 	let solutionMenu = false;
-	let posMenu = false;
+	let paymentDevices = false;
+	let industrySolution = false;
 </script>
 
 <style>
@@ -31,10 +32,20 @@
 	border-color:  transparent transparent #FB923C transparent;
 }
 
-.solution-arrow::after {
+.cloud-solution-arrow::after {
 	content: "";
 	position: absolute;
 	top: -14%;
+	left: 10%;
+	border-width: 10px;
+	border-style: solid;
+	border-color:  transparent transparent #FB923C transparent;
+}
+
+.industry-solution-arrow::after {
+	content: "";
+	position: absolute;
+	top: -10%;
 	left: 10%;
 	border-width: 10px;
 	border-style: solid;
@@ -109,7 +120,46 @@
 
 					<a href="/company" class="flex items-center px-3 py-2 font-medium hover:text-orange-400">Company</a>
 
-					<div class="relative group" on:mouseover={() =>  {posMenu = true}} on:focus={() =>  {posMenu = true}} on:mouseleave={() =>  {posMenu = false}}>
+					<div class="relative group" on:mouseover={() =>  {industrySolution = true}} on:focus={() =>  {industrySolution = true}} on:mouseleave={() =>  {industrySolution = false}}>
+						<a href="/" class="flex items-center space-x-2 px-3 py-2 font-medium group-hover:text-orange-400">
+							<span>Industry Solutions</span>
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+								<path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+							</svg>
+						</a>
+						<!-- Industry Solution Menu -->
+						<div class="{industrySolution ? '' : 'hidden'} absolute industry-solution-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
+							<ul class="flex flex-col py-4 px-3 font-semibold text-sm 2xl:text-base">
+
+								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
+									<a href="/" class="flex space-x-1.5 items-center">
+										<span>Payment Gateway</span>
+									</a>
+								</li>
+
+								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
+									<a href="/" class="flex space-x-1.5 items-center">
+										<span>Merchant & Retail Acquiring</span>
+									</a>
+								</li>
+
+								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
+									<a href="/" class="flex space-x-1.5 items-center">
+										<span>Mobile & Agency Banking</span>
+									</a>
+								</li>
+
+								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
+									<a href="/" class="flex space-x-1.5 items-center">
+										<span>Custom Payment System Development</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- End Industry Solution Menu -->
+					</div> 
+
+					<div class="relative group" on:mouseover={() =>  {paymentDevices = true}} on:focus={() =>  {paymentDevices = true}} on:mouseleave={() =>  {paymentDevices = false}}>
 						<a href="/" class="flex items-center space-x-2 px-3 py-2 font-medium group-hover:text-orange-400">
 							<span>Payment Devices</span>
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
@@ -117,7 +167,7 @@
 							</svg>
 						</a>
 						<!-- Payment Devices Menu -->
-						<div class="{posMenu ? '' : 'hidden'} absolute pos-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
+						<div class="{paymentDevices ? '' : 'hidden'} absolute pos-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
 							<ul class="flex flex-col py-4 px-3 font-semibold text-sm 2xl:text-base">
 
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
@@ -156,7 +206,7 @@
 							</svg>
 						</a>
 						<!-- Cloud Solutions Menu -->
-						<div class="{solutionMenu ? '' : 'hidden'} absolute solution-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
+						<div class="{solutionMenu ? '' : 'hidden'} absolute cloud-solution-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
 							<ul class="flex flex-col py-4 px-3 font-semibold text-sm 2xl:text-base">
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
 									<a href="/solutions/agency_banking" class="flex space-x-1.5 items-center">

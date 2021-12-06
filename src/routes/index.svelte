@@ -4,7 +4,7 @@
 
 <script>
     import home_product_2 from '../assets/images/home-product-2.jpeg';
-    import andoid_pos_2 from '../assets/images/andoid_pos_2.png';
+    import mpos from '../assets/images/mpos.jpg';
     import desktop_pos from '../assets/images/desktop_pos.png';
     import android_pos_mini from '../assets/images/android_pos_mini.png';
     import payment from '../assets/images/payments.png';
@@ -171,7 +171,7 @@
          <div class="space-y-4">
             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">MPOS Card <br> Reader</h2>
  
-            <img src={andoid_pos_2} alt="placeholder" class="w-full rounded">
+            <img src={mpos} alt="placeholder" class="w-full h-40 2xl:h-52 object-cover rounded">
 
             <div class="text-sm xl:text-base leading-6 space-y-4">
                 <p>
