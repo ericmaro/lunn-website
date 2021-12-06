@@ -38,8 +38,8 @@
 <div class="container-fluid">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
-            <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Solutions</h2>
-            <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
+            <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Industry Solutions</h2>
+            <div class="w-32 bg-orange-400 h-1 mt-1.5"></div>
 
             <p class="mt-3 text-sm md:text-base lg:text-lg xl:text-xl">
                 Over the years, Financial Institution and Payment Processing Companies across Africa have trusted Lunn-Tech to provide them with excellent Payment solutions and many other consultancy Services as listed;
@@ -74,7 +74,7 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-bold text-lg lg:text-2xl mb-1">Mobile Banking</h2>
+                        <h2 class="font-semibold text-lg lg:text-2xl mb-1">Mobile Banking</h2>
                         <a href="/" class="text-orange-400 text-sm 2xl:text-base">View Details</a>
                     </div>
                 </div>
@@ -140,78 +140,20 @@
 
 <div class="container-fluid">
     <div>
-        <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Our Services</h2>
-        <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
-
-        <h4 class="text-lg lg:text-2xl font-semibold capitalize mt-6">
-            We provide the best consultancy services for your business
-        </h4>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
-
-        <div class="card border border-gray-100 shadow-lg">
-            <div class="card-body">
-                <div class="card-title">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-orange-400" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"></path>
-                    </svg>
-                </div>
-                <div>
-                    <h2 class="font-medium text-lg lg:text-2xl mb-1">System <br/> Audits</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="card border border-gray-100 shadow-lg">
-            <div class="card-body">
-                <div class="card-title">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-orange-400" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <rect x="5" y="3" width="14" height="18" rx="1"></rect>
-                        <circle cx="12" cy="17" r="1"></circle>
-                     </svg>
-                </div>
-                <div>
-                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Infrastructure Design and Implementation</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="card border border-gray-100 shadow-lg">
-            <div class="card-body">
-                <div class="card-title">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-orange-400" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <rect x="3" y="15" width="6" height="6" rx="2"></rect>
-                        <rect x="15" y="15" width="6" height="6" rx="2"></rect>
-                        <rect x="9" y="3" width="6" height="6" rx="2"></rect>
-                        <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1"></path>
-                        <line x1="12" y1="9" x2="12" y2="12"></line>
-                    </svg>
-                </div>
-                <div>
-                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Project <br/> Management</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div>
-        <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Products</h2>
-        <div class="w-16 bg-orange-400 h-1 mt-1.5"></div>
+        <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Payment Devices</h2>
+        <div class="w-32 bg-orange-400 h-1 mt-1.5"></div>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12 items-center">
         <div class="space-y-6">
-            <h2 class="text-lg md:text-xl xl:text-3xl font-semibold">Non Payment POS</h2>
+            <h2 class="text-lg md:text-xl xl:text-3xl font-semibold">P3</h2>
 
             <p class="text-sm md:text-base lg:text-lg xl:text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Impeccable quality and appearance make P3 irresistible. It delivers strong performance through the operation 
+                system powered by Android 7.1 and MT6739 ARM quad core cortex-A53 high-speed processor. The innovative design 
+                combines the arts and advanced protection technology. And P3 is power-efficient with a Removable Lithium 
+                Polymer battery of 7.4V/2600mAh. It provides full-spectrum wireless connectivity with embedded 4G/3G/2G 
+                and Wi-Fi, the P3 enables payment acceptance anywhere while optimizing communication costs.
             </p>
 
             <button class="btn px-6 rounded-sm capitalize bg-orange-400 border-orange-400">Find out more</button>
@@ -282,6 +224,68 @@
             <button class="btn px-6 rounded-sm capitalize border-orange-400 bg-orange-400 mt-3">Find out more</button>
          </div>
     </div> 
+</div>
+
+<div class="container-fluid">
+    <div>
+        <h2 class="text-xl lg:text-2xl 2xl:text-4xl font-bold uppercase">Cloud Solutions</h2>
+        <div class="w-32 bg-orange-400 h-1 mt-1.5"></div>
+
+        <h4 class="text-lg lg:text-2xl font-semibold capitalize mt-6">
+            We provide the best consultancy services for your business
+        </h4>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
+
+        <div class="card border border-gray-100 shadow-lg">
+            <div class="card-body">
+                <div class="card-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-orange-400" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M9 12l2 2l4 -4"></path>
+                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="font-medium text-lg lg:text-2xl mb-1">System <br/> Audits</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="card border border-gray-100 shadow-lg">
+            <div class="card-body">
+                <div class="card-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-orange-400" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <rect x="5" y="3" width="14" height="18" rx="1"></rect>
+                        <circle cx="12" cy="17" r="1"></circle>
+                     </svg>
+                </div>
+                <div>
+                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Infrastructure Design and Implementation</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="card border border-gray-100 shadow-lg">
+            <div class="card-body">
+                <div class="card-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-orange-400" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <rect x="3" y="15" width="6" height="6" rx="2"></rect>
+                        <rect x="15" y="15" width="6" height="6" rx="2"></rect>
+                        <rect x="9" y="3" width="6" height="6" rx="2"></rect>
+                        <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1"></path>
+                        <line x1="12" y1="9" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="font-medium text-lg lg:text-2xl mb-1">Project <br/> Management</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="bg-red-800 relative py-24 md:py-12 2xl:py-24">

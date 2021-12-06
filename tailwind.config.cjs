@@ -10,6 +10,19 @@ const config = {
 			orange: colors.orange,
 			gray: colors.trueGray,
 			blue: colors.blue,
+			'astronaut': {
+				DEFAULT: '#183372',
+				'50': '#f3f5f8', 
+				'100': '#e8ebf1', 
+				'200': '#c5ccdc', 
+				'300': '#a3adc7', 
+				'400': '#5d709c', 
+				'500': '#183372', 
+				'600': '#162e67', 
+				'700': '#122656', 
+				'800': '#0e1f44', 
+				'900': '#0c1938'
+			}
 		},
 		extend: {
 			fontFamily: {
