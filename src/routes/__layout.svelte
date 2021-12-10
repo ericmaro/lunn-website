@@ -256,7 +256,6 @@
 			</div>
 			
 			<div>
-				<p>Socials</p>
 				<div class="flex align-center space-x-4 mt-3">
 					<!-- facebook -->
 					<a href="/" class="border border-orange-400 p-2 rounded-full text-orange-400 cursor-pointer">
