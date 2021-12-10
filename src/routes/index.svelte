@@ -168,7 +168,7 @@
          <div class="space-y-4">
             <h2 class="text-lg lg:text-2xl 2xl:text-4xl font-semibold capitalize">MPOS Card <br> Reader</h2>
  
-            <img src={mpos} alt="placeholder" class="w-full h-40 2xl:h-52 object-cover rounded">
+            <img src={mpos} alt="placeholder" class="w-full h-40 2xl:h-48 object-cover rounded">
 
             <div class="text-sm xl:text-base leading-6 space-y-4">
                 <p>
