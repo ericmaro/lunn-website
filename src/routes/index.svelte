@@ -1,10 +1,10 @@
 <svelte:head>
-	  <title>Lunn</title>
+	<title>Lunn</title>
 </svelte:head>
 
 <script>
     import home_product_2 from '../assets/images/home-product-2.jpeg';
-    import mpos from '../assets/images/mpos.jpg';
+    import mpos from '../assets/images/mpos.png';
     import desktop_pos from '../assets/images/desktop_pos.png';
     import android_pos_mini from '../assets/images/android_pos_mini.png';
     import payment from '../assets/images/payments.png';
@@ -20,16 +20,13 @@
     background-size: cover;
 }
 
-.bg-animated-button-2 {
-	background: linear-gradient(to right, white 50%, #FB923C 50%);
-	background-size: 200% 100%;
-	background-position: right bottom;
-	transition: all .5s ease-out;
-}
-
-.bg-animated-button-2:hover {
-	background-position: left bottom;
-    color: #FB923C;
+.contact_section {
+    background-image: url("../assets/images/contact-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: multiply;
 }
 </style>
 
@@ -175,17 +172,9 @@
 
             <div class="text-sm xl:text-base leading-6 space-y-4">
                 <p>
-                    MPOS Card Reader features a high light mirror, beautiful shape, non-slip design, to enhance the user experience with a 2.0-inch color LCD display screen, clear and bright display color.
+                    MPOS Card Reader features a high light mirror, beautiful shape, non-slip design, to enhance the 
+                    user experience with a 2.0-inch color LCD display screen, clear and bright display color.
                 </p>
-                <p>
-                    It works a very Flexible Platform, Bluetooth 4.0, IOS / Android compatible Inbuilt contactless module, supports Union pay, Apple Pay and Android Pay.
-                </p>
-
-                <ul class="list-inside list-disc">
-                    <li>PCI PTS 5.X and CUP security standards certified</li>
-                    <li>High-level security chip and Multiple tampering and disassemble self-destruction mechanism</li>
-                    <li>Supports DES, 3DES algorithm, effectively secure the cardholder</li>
-                </ul>
             </div>
             
  
@@ -199,10 +188,9 @@
 
             <div class="text-sm xl:text-base leading-6 space-y-4">
                 <p>
-                    Smart Android Desktop POS provides more space and more possibilities. With 10.1 HD IPS Enhancement technology on touch, D3 makes touch smoother. 2-inch built-in printer with auto-cut in Android desktop POS print swiftly and smoothly. Lithium Polymer battery 2600mAh@ 7.4V provides a full 2 Hour battery work without power supply.
-                </p>
-                <p>
-                    With remote control function on Android mobile POS, technician can control user's device remotely just like operating a local device. The problem can be easily found and solved with user's help.
+                    Smart Android Desktop POS provides more space and more possibilities. With 10.1 HD IPS Enhancement 
+                    technology on touch, D3 makes touch smoother. 2-inch built-in printer with auto-cut in Android desktop 
+                    POS print swiftly and smoothly.
                 </p>
             </div>
   
@@ -215,9 +203,10 @@
             <img src={android_pos_mini} alt="placeholder" class="w-full rounded">
 
             <div class="text-sm xl:text-base leading-6 space-y-4">
-                <p>Light and thin, easy to operate with one hand, P5 Liberate the other hand of the waiter. It delivers strong performance through the operation system powered by Android 10.0 and MT6739 ARM quad core cortex-A53high-speed processor.</p>
                 <p>
-                    The P3 enables all payment methods, from EMV Contactless or chip & PIN/chip & sign to traditional swipe methods. It also supports new methods such as NFC couponing or mobile wallets. Providing full-spectrum wireless connectivity with embedded 4G/3G/2G and Wi-Fi, the Toast Go2 enables payment acceptance anywhere while optimizingcommunication costs.
+                    Light and thin, easy to operate with one hand, P5 Liberate the other hand of the waiter. 
+                    It delivers strong performance through the operation system powered by Android 10.0 and 
+                    MT6739 ARM quad core cortex-A53high-speed processor.
                 </p>
             </div>
 
@@ -290,8 +279,8 @@
 
 <div class="bg-red-800 relative py-24 md:py-12 2xl:py-24">
 
-    <div class="bg-black w-full py-64">
-        <div class="absolute inset-0 z-10 container mx-auto flex w-full">
+    <div class="contact_section w-full py-64">
+        <div class="absolute inset-0 z-10 container mx-auto px-4 md:px-10 flex w-full">
         
             <div class="bg-white border border-gray-100 shadow-lg rounded-md w-full lg:w-3/4 xl:w-7/12 2xl:w-1/2 py-12 px-6">
                 <h1 class="text-xl lg:text-2xl 2xl:text-4xl font-bold text-center capitalize mb-6">Get in touch</h1>

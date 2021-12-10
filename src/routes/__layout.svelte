@@ -116,35 +116,35 @@
 
 			<div class="flex-none hidden px-2 mx-2 lg:flex space-x-6">
 				<div class="items-stretch hidden lg:flex text-base xl:text-lg">
-					<a href="/" class="flex items-center px-3 py-2 font-medium hover:text-orange-400">Home</a>
+					<a href="/" class="flex items-center p-3 font-medium hover:text-orange-400">Home</a>
 
 					<a href="/company" class="flex items-center px-3 py-2 font-medium hover:text-orange-400">Company</a>
 
 					<div class="relative group" on:mouseover={() =>  {industrySolution = true}} on:focus={() =>  {industrySolution = true}} on:mouseleave={() =>  {industrySolution = false}}>
-						<a href="/" class="flex items-center space-x-2 px-3 py-2 font-medium group-hover:text-orange-400">
+						<a href="/" class="flex items-center space-x-2 p-3 font-medium group-hover:text-orange-400">
 							<span>Industry Solutions</span>
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
 								<path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
 							</svg>
 						</a>
 						<!-- Industry Solution Menu -->
-						<div class="{industrySolution ? '' : 'hidden'} absolute industry-solution-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
+						<div class="{industrySolution ? '' : 'hidden'} absolute industry-solution-arrow top-12 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
 							<ul class="flex flex-col py-4 px-3 font-semibold text-sm 2xl:text-base">
 
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/" class="flex space-x-1.5 items-center">
+									<a href="/solutions/gateway" class="flex space-x-1.5 items-center">
 										<span>Payment Gateway</span>
 									</a>
 								</li>
 
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/" class="flex space-x-1.5 items-center">
+									<a href="/solutions/mobile_banking" class="flex space-x-1.5 items-center">
 										<span>Merchant & Retail Acquiring</span>
 									</a>
 								</li>
 
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/" class="flex space-x-1.5 items-center">
+									<a href="/solutions/agency_banking" class="flex space-x-1.5 items-center">
 										<span>Mobile & Agency Banking</span>
 									</a>
 								</li>
@@ -160,14 +160,14 @@
 					</div> 
 
 					<div class="relative group" on:mouseover={() =>  {paymentDevices = true}} on:focus={() =>  {paymentDevices = true}} on:mouseleave={() =>  {paymentDevices = false}}>
-						<a href="/" class="flex items-center space-x-2 px-3 py-2 font-medium group-hover:text-orange-400">
+						<a href="/" class="flex items-center space-x-2 p-3 font-medium group-hover:text-orange-400">
 							<span>Payment Devices</span>
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
 								<path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
 							</svg>
 						</a>
 						<!-- Payment Devices Menu -->
-						<div class="{paymentDevices ? '' : 'hidden'} absolute pos-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
+						<div class="{paymentDevices ? '' : 'hidden'} absolute pos-arrow top-12 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
 							<ul class="flex flex-col py-4 px-3 font-semibold text-sm 2xl:text-base">
 
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
@@ -199,28 +199,28 @@
 					</div> 
 					
 					<div class="relative group" on:mouseover={() =>  {solutionMenu = true}} on:focus={() =>  {solutionMenu = true}} on:mouseleave={() =>  {solutionMenu = false}} >
-						<a href="/" class="flex items-center space-x-2 px-3 py-2 font-medium group-hover:text-orange-400" >
+						<a href="/" class="flex items-center space-x-2 p-3 font-medium group-hover:text-orange-400" >
 							<span>Cloud Solutions</span>
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
 								<path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
 							</svg>
 						</a>
 						<!-- Cloud Solutions Menu -->
-						<div class="{solutionMenu ? '' : 'hidden'} absolute cloud-solution-arrow top-14 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
+						<div class="{solutionMenu ? '' : 'hidden'} absolute cloud-solution-arrow top-12 z-20 w-80 border-t-4 border-orange-400 shadow-sm bg-white ">
 							<ul class="flex flex-col py-4 px-3 font-semibold text-sm 2xl:text-base">
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/solutions/agency_banking" class="flex space-x-1.5 items-center">
-										<span>Agency Banking</span>
+									<a href="/" class="flex space-x-1.5 items-center">
+										<span>Device Management</span>
 									</a>
 								</li>
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/solutions/gateway" class="flex space-x-1.5 items-center">
-										<span>Payment Gateway</span>
+									<a href="/" class="flex space-x-1.5 items-center">
+										<span>Hosted Checkout</span>
 									</a>
 								</li>
 								<li class="hover:text-white hover:bg-orange-400 py-2 px-4">
-									<a href="/solutions/mobile_banking" class="flex space-x-1.5 items-center">
-										<span>Mobile & Internet Banking</span>
+									<a href="/" class="flex space-x-1.5 items-center">
+										<span>SEO Marketing</span>
 									</a>
 								</li>
 							</ul>
@@ -253,9 +253,6 @@
 		<div class="w-full lg:w-1/3 space-y-6">
 			<div>
 				<img src={logo} alt="lunn-logo" class="h-20 w-auto mb-2">
-				<p class="text-gray-500">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rem, ipsum fugiat quaerat facere non aliquam nihil. Molestiae earum sequi, natus eum perferendis accusamus neque pariatur perspiciatis molestias, exercitationem excepturi.
-				</p>
 			</div>
 			
 			<div>

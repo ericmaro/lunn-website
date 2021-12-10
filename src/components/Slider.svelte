@@ -1,6 +1,6 @@
 <script>
     import Slider_1 from '../assets/images/slider/slider_1.jpg';
-    import Slider_2 from '../assets/images/slider/slider_2.jpg';
+    import Slider_2 from '../assets/images/slider/slider_2.png';
     import Slider_3 from '../assets/images/slider/slider_3.jpg';
     import { onMount } from 'svelte';
     import { fade, scale, slide } from 'svelte/transition';
