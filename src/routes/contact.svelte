@@ -1,3 +1,18 @@
+<script>
+    import Map from "../components/Map.svelte";
+    import { amp, browser, dev, mode, prerendering } from "$app/env";
+    
+    let ready;
+
+    if (browser) {
+        // @ts-ignore
+        window.initMap = () => {
+            ready = true;
+        };
+    }
+
+</script>
+
 <style>
 .form-background {
     background-image: url("https://images.pexels.com/photos/5239877/pexels-photo-5239877.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
@@ -12,13 +27,18 @@
 }
 </style>
 
+<svelte:head>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+</svelte:head>
 
 <div class="bg-gray-50">
     <div class="container mx-auto px-6 md:px-12 xl:px-24">
 
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div>
-                map
+                { #if ready }
+                    <Map></Map>
+                { /if }
             </div>
 
             <div class="form-background w-full">
